@@ -22,14 +22,14 @@ This application monitors weather conditions in real-time using the OpenWeatherM
 1. **Clone the repository:**
    ```sh
    git clone <repository-url>
-   cd weather_monitoring
+   cd Task2
    ```
 
 2. **Set up virtual environment and install dependencies:**
    ```sh
    python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   pip install -r requirements.txt
+    venv\Scripts\activate
+   pip install flask
    ```
 
 3. **Configure the application:**
@@ -60,19 +60,7 @@ This application monitors weather conditions in real-time using the OpenWeatherM
 
 ## Project Structure
 
-```plaintext
-weather_monitoring/
-│
-├── app.py                # Main application script
-├── config.py             # Configuration file for API keys and settings
-├── helper.py             # Helper functions for API calls and data processing
-├── models.py             # Database models and initialization
-├── requirements.txt      # Python dependencies
-├── templates/
-│   └── index.html        # HTML template for the UI
-├── tests/
-│   └── test_weather_monitoring.py  # Test cases for the application
-└── README.md             # Project documentation
+
 ```
 
 ## API Reference
